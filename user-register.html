@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký (Ứng viên)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="bg-[#000071] py-[15px]">
+    <div class="container mx-auto px-[16px]">
+      <!-- Wrap -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="text-white font-[800] sm:text-[28px] text-[20px] lg:flex-none flex-1">
+          28.ITJobs
+        </a>
+        <!-- Menu -->
+        <nav class="lg:block hidden">
+          <ul class="flex gap-x-[30px]">
+            <li class="inline-flex items-center gap-x-[8px] relative group/sub-1">
+              <a href="#" class="font-[600] text-[16px] text-white">
+                Việc Làm IT
+              </a>
+              <i class="fa-solid fa-angle-down text-white text-[16px]"></i>
+              <ul class="absolute top-[100%] left-[0] w-[280px] bg-[#000065] hidden group-hover/sub-1:block">
+                <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096] relative group/sub-2">
+                  <a href="#" class="font-[600] text-[16px] text-white">
+                    Việc làm IT theo kỹ năng
+                  </a>
+                  <i class="fa-solid fa-angle-right text-white text-[16px]"></i>
+                  <ul class="absolute top-[0] left-[100%] w-[280px] bg-[#000065] hidden group-hover/sub-2:block">
+                    <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                      <a href="#" class="font-[600] text-[16px] text-white">
+                        ReactJS
+                      </a>
+                    </li>
+                    <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                      <a href="#" class="font-[600] text-[16px] text-white">
+                        NodeJS
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                  <a href="#" class="font-[600] text-[16px] text-white">
+                    Việc làm IT theo công ty
+                  </a>
+                  <i class="fa-solid fa-angle-right text-white text-[16px]"></i>
+                </li>
+                <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                  <a href="#" class="font-[600] text-[16px] text-white">
+                    Việc làm IT theo thành phố
+                  </a>
+                  <i class="fa-solid fa-angle-right text-white text-[16px]"></i>
+                </li>
+              </ul>
+            </li>
+            <li class="inline-flex items-center gap-x-[8px]">
+              <a href="#" class="font-[600] text-[16px] text-white">
+                Top Công Ty IT
+              </a>
+              <i class="fa-solid fa-angle-down text-white text-[16px]"></i>
+            </li>
+            <li class="inline-flex items-center gap-x-[8px]">
+              <a href="#" class="font-[600] text-[16px] text-white">
+                Nhà Tuyển Dụng
+              </a>
+              <i class="fa-solid fa-angle-down text-white text-[16px]"></i>
+            </li>
+          </ul>
+        </nav>
+        <!-- Account -->
+        <div class="inline-flex items-center gap-x-[5px] text-white font-[600] sm:text-[16px] text-[12px]">
+          <a href="#" class="">
+            Đăng Nhập
+          </a>
+          <span class="">/</span>
+          <a href="#" class="">
+            Đăng Ký
+          </a>
+        </div>
+        <!-- Button Menu Mobile -->
+        <button class="text-white text-[20px] ml-[12px] lg:hidden inline-block">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Đăng ký (Ứng viên) -->
+  <div class="py-[60px]">
+    <div class="container mx-auto px-[16px]">
+      <div class="border border-[#DEDEDE] rounded-[8px] py-[50px] px-[20px] max-w-[602px] mx-auto">
+        <h1 class="font-[700] text-[20px] text-black text-center mb-[20px]">
+          Đăng ký (Ứng viên)
+        </h1>
+        <form action="" class="grid grid-cols-1 gap-y-[15px]">
+          <div class="">
+            <label for="fullName" class="block font-[500] text-[14px] text-black mb-[5px]">
+              Họ tên *
+            </label>
+            <input type="text" name="" id="fullName" class="w-[100%] h-[46px] border border-[#DEDEDE] rounded-[4px] py-[14px] px-[20px] font-[500] text-[14px] text-black">
+          </div>
+          <div class="">
+            <label for="email" class="block font-[500] text-[14px] text-black mb-[5px]">
+              Email *
+            </label>
+            <input type="email" name="" id="email" class="w-[100%] h-[46px] border border-[#DEDEDE] rounded-[4px] py-[14px] px-[20px] font-[500] text-[14px] text-black">
+          </div>
+          <div class="">
+            <label for="password" class="block font-[500] text-[14px] text-black mb-[5px]">
+              Mật khẩu *
+            </label>
+            <input type="password" name="" id="password" class="w-[100%] h-[46px] border border-[#DEDEDE] rounded-[4px] py-[14px] px-[20px] font-[500] text-[14px] text-black">
+          </div>
+          <div class="">
+            <button class="bg-[#0088FF] rounded-[4px] w-[100%] h-[48px] px-[20px] font-[700] text-[16px] text-white">
+              Đăng ký
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Hết Đăng ký (Ứng viên) -->
+
+  <!-- Footer -->
+  <footer class="bg-[#000065] py-[24px]">
+    <div class="container mx-auto px-[16px]">
+      <div class="text-white font-[800] text-[28px] text-center mb-[10px]">
+        28.ITJobs
+      </div>
+      <div class="text-[#A6A6A6] font-[400] text-[14px] text-center">
+        Copyright © IT VIEC JSC
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+</body>
+</html>
